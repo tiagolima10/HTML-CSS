@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        /*
+        Medidas Absolutas
+        cm, mm, in(polegada), px, pt, pc
+
+        Medidas Relativas
+        em(relativo ao tamanho atual da fonte)
+        ex(relativo a uma altura x da fonte)
+        rem(root da fonte configurada no body)
+        vw(largura da viewport/tamanho da tela/)
+        vh(altura da viewport)
+        %
+        16px geralmente = 1em
+        */
+            font-size: 1em;
+            /* lighter normal bold bolder */
+        }
+
+        h1 {
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, quidem minima veritatis natus reiciendis a maxime culpa ducimus nemo, voluptatibus ea voluptates odio aperiam dolorum voluptatum. Adipisci, ea obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit at sit praesentium. Accusamus ea id omnis officiis veniam nisi beatae veritatis, nemo, incidunt aliquam quidem autem. Velit et facilis id. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, aliquid? Laboriosam aut odit, assumenda, sunt iure reiciendis optio ullam rem, totam officiis provident? Quae optio asperiores sapiente sequi, itaque excepturi?</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure necessitatibus nobis laudantium corrupti velit, similique a id. Nobis quisquam optio laboriosam perspiciatis ducimus? In vel provident deserunt ipsa eveniet doloribus.</p>
+</body>
+</html>

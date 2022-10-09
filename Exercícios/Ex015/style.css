@@ -1,0 +1,22 @@
+@charset "UTF-8";  
+
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h1{
+    color: deeppink;
+    background-color: rgb(46, 5, 13);
+}
+
+h2{
+    color: fuchsia;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    color: chartreuse;
+}

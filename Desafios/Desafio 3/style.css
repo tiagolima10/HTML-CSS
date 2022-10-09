@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Stick+No+Bills&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 1.1em;
+    text-indent: 40px;
+    font-weight: bold;
+}
+
+span{
+    font-weight: bold;
+    color: rgb(10, 131, 10);
+}
+
+
+/*LINKS*/
+#menu>a::after {
+    content: none;
+}
+
+a {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a::after {
+    content: '🔗';
+}
+
+/*MENU E TÍTULO*/
+header {
+    background-image: linear-gradient(#39CD7B, #1A5C38);
+    color: white;
+}
+
+header>h2 {
+    font-family: 'Roboto Mono', monospace, sans-serif;
+    color: rgb(224, 224, 224);
+    font-size: 0.3em;
+    font-weight: normal;
+}
+
+body {
+    margin: 0px;
+}
+
+header > h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 2.2em;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    margin: 0px;
+}
+
+header > h2 {
+    font-size: 0.8em ;
+    text-align: center;
+}
+
+#menu {
+    padding: 10px;
+    margin: 0px;
+}
+
+#menu > a {
+    color: white;
+    text-decoration: none;  
+    margin-right: 15px;
+}
+
+/*PRINCIPAL*/
+main {
+    background-color: #84E1AD;
+    padding: 10px;
+    margin: 0px;
+}
+
+#noticias {
+    background-color: white;
+    padding: 5px 20px;
+    margin: -10px 200px 0px 200px;
+    text-align: justify;
+}
+
+article > h2 {
+    font-size: 2em;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Stick No Bills', sans-serif;
+    color: rgba(5, 68, 5, 0.856);
+}
+
+article > h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Stick No Bills', sans-serif;
+    background-image: linear-gradient(rgba(77, 170, 77, 0.452)10%, white 90%);
+    color: rgba(5, 68, 5, 0.856);
+}
+
+#dandroids {
+    text-align: center;
+}
+
+#irina {
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+}
+
+#bugdroid {
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+}
+
+#ant_video {
+    padding: 0px 0px 10px 0px;
+}
+
+#video {
+    background-color: #1A5C38;
+    text-align: center;
+    padding: 20px 40px;
+    margin: -20px;
+}
+
+#lista {
+    background-color:rgb(197, 235, 214);
+    margin: 30px;
+    padding: 0px 5px 1px 5px;
+    border-radius: 10px;
+}
+
+#lista>h4 {
+    background-color: #2FA866;
+    color: white;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    margin: -5px;
+    border-radius: 10px 10px 0px 0px;
+    text-indent: 10px;
+}
+
+li::before {
+    content: '✔️';
+}
+
+/*RODAPÉ*/
+footer {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+footer > p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 0.9em;
+    margin: 0px;
+}
